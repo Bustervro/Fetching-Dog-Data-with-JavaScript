@@ -1,14 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dog API App</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    h1, h2 { color: #333; }
+    ul { list-style: none; padding: 0; }
+    li { cursor: pointer; margin: 5px 0; padding: 5px; border: 1px solid #ccc; display: inline-block; }
+    li:hover { background-color: #f0f0f0; }
+    #breedDetails { margin-top: 15px; padding: 10px; border: 1px solid #ccc; max-width: 500px; }
+  </style>
 </head>
 <body>
   <h1>Dog Breeds</h1>
   <ul id="breedList"></ul>
 
   <h2>Breed Details</h2>
-  <div id="breedDetails"></div>
+  <div id="breedDetails">Click a breed to see details.</div>
 
   <h2>Dog Facts</h2>
   <ul id="factsList"></ul>
